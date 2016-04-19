@@ -1,0 +1,4 @@
+            z = self.rate - price / (price + self.q / self.rate)
+            k = i * np.divide(1., max(0., z))
+            wantedEstate = (wealthOfOneDelta / (price + self.q / self.rate)) * min(k, 1) - realEstate
+            wantedEstateAll += wantedEstate
