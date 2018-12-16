@@ -8,6 +8,7 @@ from scipy.optimize import fsolve
 from initial_market import StartMarket
 from matplotlib import pyplot as plt
 
+
 class init_agents(StartMarket):
 
     def createAgents(self, price):
